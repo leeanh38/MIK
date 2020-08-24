@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2020, 11:29:42 PM
+    Author     : Admin
+*/
+
+div.parallax {
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#image1{
+    background-image: url("../images/about/aboutImg.jpg");
+}
+
+div#image2{
+    background-image: url("../images/about/aboutImg2.jpg");
+}
+
+div#image3{
+    background-image: url("../images/about/aboutImg3.jpg");
+}
+
+div#image4{
+    background-image: url("../images/about/aboutImg4.jpg");
+}
+
+article.mainArticle{
+    background-color: black;
+    
+    text-align: center;
+    color: white;
+    margin-bottom: -20px;
+}
+
+article.mainArticle h1{
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    font-size: 150%;
+    color: #dce0df;
+}
+
+article.mainArticle p{
+    padding-bottom: 20px;
+    font-size: 120%;
+}
+
+article.mainArticle img.articleHeader{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article.mainArticle h1, article.mainArticle h2 {
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-size: 200%;
+}
+

@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2020, 11:58:59 PM
+    Author     : Admin
+*/
+body{
+    background-color: black;
+}
+
+a:visited, a:link {
+    color: black;
+}
+
+div.parallax {
+    /* Set a specific height */
+    min-height: 500px; 
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#headerImage{
+    background-image: url("../images/archive/archiveHeaderPic.jpg");
+    color: white;
+    text-align: center;
+}
+
+div#headerImage h1{
+    font-size: 300%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+div#artistsCategory {
+    text-align: center;
+}
+
+div#artistsCategory a.artistsProfile {
+}
+
+div#artistsCategory a.artistsProfile:hover {
+}
+
+div#artistsCategory a.artistsProfile img{
+    margin: 10px; 
+        
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 200px;
+    height: 150px;
+}
+
+

@@ -1,0 +1,223 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2020, 10:27:29 PM
+    Author     : Admin
+*/
+body{
+    margin: 0px;
+}
+
+header.top {
+    background-color: black;
+    height:           50px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+/*HEADER'S LOGO*/
+header.top a {
+    display: inline;
+}
+
+header.top img#headerLogo {
+    height: 50px;
+}
+
+/*HEADER'S SIDEBAR*/
+header.top #headerSidebar{
+    text-align: left;
+    position: fixed;
+    top: 0px;
+    width: 250px;
+    height: 100%;
+/*    background: #0A0C0E;
+    */
+    background: rgba(77,2,143,1);
+    background: -moz-linear-gradient(-45deg,rgba(164,122,200,1) 0%,rgba(77,2,143,1) 100%);
+    background: -webkit-linear-gradient(-45deg,rgba(164,122,200,1) 0%,rgba(77,2,143,1) 100%);
+    background: linear-gradient(135deg,rgba(164,122,200,1) 0%,rgba(77,2,143,1) 100%);
+    
+    left: -250px;
+    transition: all 500ms ease;
+}
+
+header.top #headerSidebar.active{
+    left: 0px;
+}
+
+header.top #headerSidebar ul{
+    margin-top: 0px;
+    margin-left: -40px;
+}
+
+header.top #headerSidebar ul li{
+    list-style: none;
+    padding: 13px 10px;
+    font-size: 20px;
+    
+}
+
+header.top #headerSidebar ul li a{
+    color: rgba(230,230,230,0.9);
+    text-decoration: none;
+}
+
+header.top #headerSidebar ul li a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+header.top #headerSidebar .toggle-button {
+    background: black;
+    position: absolute;
+    top: 7px;
+    left: 260px;  
+}
+
+header.top #headerSidebar .toggle-button span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: white;
+    margin: 5px 0px;
+}
+
+/*HEADER'S ACCOUNT*/
+header.top #headerAccount{
+    text-align: right;
+    display: inline;
+    top: 5px;
+    margin-left: -80px;
+}
+ 
+header.top #headerAccount.active{   
+    right: 0px;
+}
+
+header.top #headerAccount ul{
+    list-style: none;
+    float: right;
+    margin: 0px;
+}
+
+header.top #headerAccount ul li{
+    float: right;
+    position: relative;
+    top: 5px;
+    font-size: 18px;
+}
+
+header.top #headerAccount ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgba(230,230,230,0.9);
+}
+
+header.top #headerAccount img.toggle-button {
+    width: 40px;
+    position: relative;
+    right: 5px;
+}
+
+header.top #headerAccount ul li ul{
+    display: none;
+    position: absolute;
+    right: 0px;
+
+    background: rgba(77,2,143,1);
+    background: -moz-linear-gradient(-45deg,rgba(201,159,237,1) 0%,rgba(77,2,143,1) 100%);
+    background: -webkit-linear-gradient(-45deg,rgba(201,159,237,1) 0%,rgba(77,2,143,1) 100%);
+    background: linear-gradient(135deg,rgba(201,159,237,1) 0%,rgba(77,2,143,1) 100%);
+}
+
+header.top #headerAccount ul li:hover ul{
+    display: block;
+}
+
+header.top #headerAccount ul li ul li{
+    width: 70px;
+    padding: 13px 10px 13px 0px;
+    top: 0px;
+}
+
+header.top #headerAccount ul li ul li a{
+    margin-left: 0px;
+}
+
+header.top #headerAccount ul li ul li a:hover{
+    color: white;
+}
+
+/*MAIN SECTION*/
+section.content{
+    margin-top: 50px;
+}
+
+/*FOOTER SECTION*/
+footer{
+    margin: -13px 0px;
+    padding: 20px 0px;
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+footer img#footerLogo{
+    padding-bottom: 20px;
+}
+
+footer div#copyright{
+    color: rgba(230,230,230,0.9);
+    font-family: Times New Roman, serif;
+}
+
+footer div#pageLinks{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer div#pageLinks a{
+    color: white;
+    text-decoration: none;
+}
+
+footer div#pageLinks a:visited{
+    color: rgba(230,230,230,0.9);
+}
+
+footer div#pageLinks a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+footer div#mediaIcons{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+footer div#mediaIcons a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer #mediaIcons a:visited, footer #mediaIcons a:link{
+    color: transparent;
+}
+
+footer #mediaIcons a img{
+    width: 30px;
+}
+
+footer hr {
+    width: 400px;
+}
+
+
